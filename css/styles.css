@@ -1,0 +1,124 @@
+
+#title{
+    background-color: #ff4c68;
+   
+}
+
+.image-section{
+    width: 60%;
+    margin-top: 70px;
+    transform: rotate(25deg);
+    
+}
+body{
+    font-family: "Montserrat";
+}
+
+.navbar-nav > li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-right:30px;
+  }
+
+h1{
+    padding-top: 100px;
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.5;
+    color: white;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding-top: 10%
+}
+
+.navbar{
+    padding: 0 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+#features{
+    padding: 10% 5%
+}
+
+.features-container{
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.features-paragraph{
+    color: #8f8f8f;
+    font-size: 20px;
+}
+
+.fa-check-circle{
+    color:#ef8172;
+}
+.fa-check-circle:hover{
+    color: #ff4c68;
+}
+.fa-bullseye{
+    color:#ef8172;
+}
+.fa-bullseye:hover{
+    color:#ff4c68;
+}
+.fa-heart{
+    color:#ef8172;
+}
+
+.fa-heart:hover{
+    color:#ff4c68;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
