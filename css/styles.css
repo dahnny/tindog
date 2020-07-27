@@ -1,124 +1,187 @@
-
-#title{
-    background-color: #ff4c68;
-   
+body {
+  font-family: "Montserrat";
+  text-align: center;
 }
 
-.image-section{
-    width: 60%;
-    margin-top: 70px;
-    transform: rotate(25deg);
-    
-}
-body{
-    font-family: "Montserrat";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
 }
 
-.navbar-nav > li{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin-right:30px;
+p {
+  color: #8f8f8f;
+  font-size: 20px;
+}
+
+/* Headings */
+.new-h1 {
+  padding-top: 100px;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+
+
+
+.section-heading{
+    font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.image-section {
+  width: 60%;
+  margin-top: 70px;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 10%;
+}
+
+.navbar-nav > li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.navbar {
+  padding: 0 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+/* Containers */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Feature Section */
+
+#features {
+  padding: 10% 5%;
+  position: relative;
+}
+
+.features-container {
+  padding-bottom: 10%;
+}
+
+.feature-title{
+    font-size: 1.75rem;
+}
+
+.feature-icon{
+  padding-bottom: 10%;
+  color: #ef8172;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+
+/* Testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .carousel-item {
+    padding: 7% 15%;
   }
 
-h1{
-    padding-top: 100px;
-    margin-bottom: 30px;
-    font-family: "Montserrat";
-    font-size: 50px;
-    font-weight: 900;
-    line-height: 1.5;
-    color: white;
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
 
-h2{
-    font-family: "Montserrat";
-    font-weight: bold;
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  
+}
+.price-text{
     font-size: 3rem;
     line-height: 1.5;
 }
 
-h3{
-    font-family: "Montserrat";
-    font-size: 1.75rem;
-    font-weight: bold;
-    padding-top: 10%
+.pricing-column {
+  padding: 3% 2%;
 }
 
-.navbar{
-    padding: 0 0;
-}
-
-.navbar-brand{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.container-fluid{
-    padding: 3% 15%;
-}
-
-
-#features{
-    padding: 10% 5%
-}
-
-.features-container{
+@media (max-width: 1028px) {
+  #title {
     text-align: center;
-    padding-bottom: 10%;
+  }
+
+  .image-section {
+    position: static;
+    transform: rotate(0);
+  }
 }
 
-.features-paragraph{
-    color: #8f8f8f;
-    font-size: 20px;
+/* cta section */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 10%;
+  color: #fff;
 }
 
-.fa-check-circle{
-    color:#ef8172;
+.cta-header {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 4rem;
+  padding-bottom: 50px;
 }
-.fa-check-circle:hover{
-    color: #ff4c68;
-}
-.fa-bullseye{
-    color:#ef8172;
-}
-.fa-bullseye:hover{
-    color:#ff4c68;
-}
-.fa-heart{
-    color:#ef8172;
+/* Footer section */
+#footer {
+  padding: 10%;
 }
 
-.fa-heart:hover{
-    color:#ff4c68;
+.icon {
+  padding: 20px 10px;
 }
-
-#testimonials{
-    
-    text-align: center;
-    background-color: #ef8172;
-    color: #fff;
-}
-
-.testimonial-image{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-}
-
-
-#press{
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px ;
-}
-
-.carousel-item{
-    padding: 7% 15%;
-}
-
